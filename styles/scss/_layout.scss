@@ -1,0 +1,84 @@
+header {
+    .profile-img {
+        width: 160px;
+        display: block;
+        margin: auto;
+        margin-top: -80px;
+    }
+
+    .line {
+        max-width: 100%;
+    }
+}
+
+footer {
+    background-color: $primary-color;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+    p {
+        color: $color-white;
+    }
+}
+
+.resume {
+    background-color: $color-white;
+    margin-top: 80px;
+    padding: 0 30px 30px;
+}
+
+.contact-list {
+    padding: 0;
+    margin: 0;
+
+    li {
+        list-style: none;
+        font-weight: bold;
+        line-height: 3.2em;
+
+        i {
+            font-size: 1.5em;
+            color: $color-gray;
+            margin-right: 0.2em;
+        }
+    }
+}
+
+.progress {
+    .progress-bar {
+        min-width: 2em;
+    }
+}
+
+.work-list {
+    li {
+        list-style: none;
+        float: left;
+        padding: 0 10px;
+        margin-bottom: 30px;
+    }
+}
+
+.well {
+    display: table;
+    width: 100%;
+
+    span {
+        display: table-cell;
+    }
+
+    .description {
+        display: table-cell;
+        padding-left: 0.4em;
+
+        h4 {
+            margin-top: 0;
+            margin-bottom: 5px;
+        }
+
+        p {
+            margin: 0 0 10px;
+        }
+    }
+}
